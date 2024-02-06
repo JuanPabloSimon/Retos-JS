@@ -1,1 +1,144 @@
+*{
+    margin: 0;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(181,213,130);
+    background: linear-gradient(220deg, rgb(161, 87, 87) 0%, rgb(237, 238, 154) 49%, rgb(228, 154, 69) 100%);
+}
+
+#card {
+    margin: 50px auto;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(238, 235, 231);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 5px 4px 18px 0px rgba(131, 130, 130, 0.75) inset;
+    -webkit-box-shadow: 5px 4px 18px 0px rgba(131, 130, 130, 0.75) inset;
+    -moz-box-shadow: 5px 4px 18px 0px rgba(131, 130, 130, 0.75) inset;
+    box-shadow: -1px -4px 18px 0px rgba(131, 130, 130, 0.75) inset;
+    -webkit-box-shadow: -1px -4px 18px 0px rgba(131, 130, 130, 0.75) inset;
+    -moz-box-shadow: -1px -4px 18px 0px rgba(131, 130, 130, 0.75) inset;
+}
+
+#header {
+    height: 30%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    background-image: url("../src/assets/img/keyboard.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#avatar {
+    border: 2px solid black;
+    margin-top: 5em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    background-image: url("../src/assets/img/Icon-B-S.png");
+    background-position: center;
+    background-size: cover;
+}
+#main {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+#mainInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainInfo h6{
+    color: gray;
+}
+
+#location {
+    display: flex;
+}
+
+#description {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    margin: 1em;
+}
+
+#followButton {
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: 'Protest Strike', sans-serif;
+    position: relative;
+}
+
+#footer {
+    height: 10%;
+    font-size: 0.8em;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    border-top: 1px solid rgb(224, 216, 216);
+}
+
+#posts {
+    text-align: center;
+    height: 70%;
+    padding: 0.5em;
+}
+
+#followers {
+    text-align: center;
+    border-left: 1px solid rgb(224, 216, 216);
+    border-right: 1px solid rgb(224, 216, 216);
+    height: 70%;
+    padding: 0.5em;
+}
+
+#following {
+    text-align: center;
+    height: 70%;
+    padding: 0.5em;
+}
+
+.titles {
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.icons {
+    height: 10px;
+}
+
+.footerDetail {
+    display: flex;
+    justify-content: center;
+}
+ 
+
+/* Efects*/
+
+/* #followButton::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}    */
