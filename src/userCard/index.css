@@ -31,7 +31,7 @@ body {
     height: 30%;
     border-top-left-radius: 3%;
     border-top-right-radius: 3%;
-    background-image: url("../src/assets/img/keyboard.jpg");
+    background-image: url("../../src/assets/img/UserCard/keyboard.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -46,7 +46,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: white;
-    background-image: url("../src/assets/img/Icon-B-S.png");
+    background-image: url("../../src/assets/img/UserCard/Icon-B-S.png");
     background-position: center;
     background-size: cover;
 }
